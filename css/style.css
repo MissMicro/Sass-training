@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-family: serif;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased; }
+
+html, body {
+  padding: 0;
+  margin: 0; }
+
+body > div {
+  max-width: 38rem;
+  margin: 0 auto; }
+
+p {
+  font-family: serif;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif; }
+
+h1 {
+  font-family: serif;
+  font-size: 2.3rem;
+  line-height: 1.7250431261rem; }
+
+h2 {
+  font-family: serif;
+  font-size: 1.7250431261rem;
+  line-height: 1.34548251rem; }
+
+h3 {
+  font-family: serif;
+  font-size: 1.34548251rem;
+  line-height: 1.15rem; }
+
+h4 {
+  font-family: serif;
+  font-size: 1.15rem;
+  line-height: 0.9545152722rem; }
+
+h5 {
+  font-family: serif;
+  font-size: 0.9545152722rem;
+  line-height: 0.7705160415rem; }
+
+h6 {
+  font-family: serif;
+  font-size: 0.7705160415rem;
+  line-height: 0.4466647992; }
+
+/*# sourceMappingURL=style.css.map */
