@@ -1,4 +1,3 @@
-// ms/css/style.scss
 $base-font-family-sans: sans-serif; //1.
 $base-font-family-serif: serif; // 2.
 $base-font-family-code: monospace; // 2.
@@ -26,27 +25,22 @@ $base-headings: (
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-// ms/css/style.scss
 html {
   font-family: serif;
   font-size: 100%;
   -webkit-font-smoothing: antialiased;
 }
-
 html,body {
   padding: 0;
   margin: 0;
 }
-// path: ms/css/style.scss
 body > div {
   max-width: 38rem;
   margin: 0 auto;
 }
-// ms/css/style.scss
 p {
   @include base-font-family-sizing();
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: $base-headings-font-family;
 }
